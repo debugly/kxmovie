@@ -21,15 +21,11 @@
 
 
 // Which logger system to use NSLogger or NSLog.
-#define USE_NSLOGGER
+//#define USE_NSLOGGER
 
 #ifdef DEBUG
-#ifdef USE_NSLOGGER
-#    import "NSLogger.h"
+#define LoggerApp(level, ...)   NSLog(__VA_ARGS__)
 #else
-#    define LoggerApp(level, ...)   NSLog(__VA_ARGS__)
-#endif
-#else
-#    define LoggerApp(...)          while(0) {}
+#define LoggerApp(...)          while(0) {}
 #endif
 

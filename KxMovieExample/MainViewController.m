@@ -29,23 +29,11 @@
         self.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag: 0];
         
         _remoteMovies = @[
-
-//            @"http://eric.cast.ro/stream2.flv",
-//            @"http://liveipad.wasu.cn/cctv2_ipad/z.m3u8",
-            @"http://www.wowza.com/_h264/BigBuckBunny_175k.mov",
-            // @"http://www.wowza.com/_h264/BigBuckBunny_115k.mov",
-            @"rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov",
-            @"http://santai.tv/vod/test/test_format_1.3gp",
-            @"http://santai.tv/vod/test/test_format_1.mp4",
-        
-            //@"rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov",
-            //@"http://santai.tv/vod/test/BigBuckBunny_175k.mov",
-        
-//            @"rtmp://aragontvlivefs.fplive.net/aragontvlive-live/stream_normal_abt",
-//            @"rtmp://ucaster.eu:1935/live/_definst_/discoverylacajatv",
-//            @"rtmp://edge01.fms.dutchview.nl/botr/bunny.flv"
+//            @"http://192.168.3.2/ffmpeg-test/sintel.mp4",
+//            @"http://192.168.3.2/ffmpeg-test/xp5.mp4",
+            @"http://data.vod.itc.cn/?new=/41/246/gLIVe2hWQVuAETeXyjRADD.mp4&vid=85433739&plat=14&mkey=FK6r74omqJBNOJLzUIcia16b27BEXili&ch=null&user=api&qd=8001&cv=3.13&uid=F45C89AE5BC3&ca=2&pg=5&pt=1&prod=ifox",
+            @"http://data.vod.itc.cn/?new=/73/15/oFed4wzSTZe8HPqHZ8aF7J.mp4&vid=77972299&plat=14&mkey=XhSpuZUl_JtNVIuSKCB05MuFBiqUP7rB&ch=null&user=api&qd=8001&cv=3.13&uid=F45C89AE5BC3&ca=2&pg=5&pt=1&prod=ifox"
         ];
-        
     }
     return self;
 }

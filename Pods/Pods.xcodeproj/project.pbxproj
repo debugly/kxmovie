@@ -1,1052 +1,781 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0345663A92CF4F3F8D4956F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>880B3A1E967E44BF8B9981EA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>041AB6950D8643259F6CCF42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0826990B9D9A4379988D5A64</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0826990B9D9A4379988D5A64</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0F95B570380344B8BD8303F1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0345663A92CF4F3F8D4956F1</string>
-				<string>B5309C75F489483AB086F786</string>
-				<string>26D1A894CB58437B9488F734</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>104F7CB7BCF14E33B45BE662</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13EFF428C9A14134875E6DCA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LoggerCommon.h</string>
-			<key>path</key>
-			<string>Client Logger/iOS/LoggerCommon.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C2D99338A02488295779EB8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>46A8E0A5DDD2403CA34F1B76</string>
-				<string>A4FCDD05882E4862BDBCDB69</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1F04CEBFCB9941C1B157C08E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>86C9690B2DC24968B61B0057</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>26D1A894CB58437B9488F734</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33849874BFC04751BE88E502</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27E292D6DD484E7E929118B5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>889F9631A7934ADD8410E583</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>295C887DF796429E81415AD4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>LoggerClient.m</string>
-			<key>path</key>
-			<string>Client Logger/iOS/LoggerClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29AC6E96BDA64F69A9387E77</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3FBE270381942FD8E335C03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2BCCECB283454C6BB4D38158</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>2C981336588E4417BD2E208F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3A398A60B5944D69F1B1E49</string>
-				<string>29AC6E96BDA64F69A9387E77</string>
-				<string>041AB6950D8643259F6CCF42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2DC35F8FCAD640C5BF175D76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE8A681C9F95488BABBBD4D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>33849874BFC04751BE88E502</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSLogger.h</string>
-			<key>path</key>
-			<string>Client Logger/iOS/NSLogger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CFDEDD0C9B041F6BE4A1E0D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>719AAD3F949E4C1492012B5C</string>
-				<string>5CC763CCD7C54029A0C3E066</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46A8E0A5DDD2403CA34F1B76</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7E1EB5C97C1342A9B5FDBF05</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-NSLogger-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4B2E7FCAF1994467B3D7803C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NSLogger.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50DA7A8A030543DBA3520F72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CC763CCD7C54029A0C3E066</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>534447AB5DB1425B83139EB6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A9C86B3282A64EFF901E05CE</string>
-				<string>50DA7A8A030543DBA3520F72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>54B2F7CD03844882A4063E5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55316065B31D4E72B46DFE5A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86C9690B2DC24968B61B0057</string>
-				<string>54B2F7CD03844882A4063E5F</string>
-				<string>104F7CB7BCF14E33B45BE662</string>
-				<string>DE8A681C9F95488BABBBD4D3</string>
-				<string>92177A04C8A84C92AD509188</string>
-				<string>6386E454BCAB4396BC19AAC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>566F51844AA945D6B323A1AA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5AEF7D4ECF3048BC91E16EAA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>295C887DF796429E81415AD4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CC763CCD7C54029A0C3E066</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-NSLogger.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>605C02205ABA45AD933DB020</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2BCCECB283454C6BB4D38158</string>
-				<string>97E79205ACCA4503A573C4DD</string>
-				<string>27E292D6DD484E7E929118B5</string>
-				<string>3CFDEDD0C9B041F6BE4A1E0D</string>
-				<string>606B66774322416D9672E779</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>606B66774322416D9672E779</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>55316065B31D4E72B46DFE5A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60EA8A45CD674710AD4C10F4</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D460BB9E74DC4164A39AD91C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>605C02205ABA45AD933DB020</string>
-			<key>productRefGroup</key>
-			<string>3CFDEDD0C9B041F6BE4A1E0D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>674DF10DDCBC485BA743C0D3</string>
-				<string>7D220297FD764E6599FD8C33</string>
-			</array>
-		</dict>
-		<key>6386E454BCAB4396BC19AAC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>674DF10DDCBC485BA743C0D3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>70F3413BF69043C09D1FB29F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B2A861BF8E844EBFA7B24FE2</string>
-				<string>534447AB5DB1425B83139EB6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6AA29BC4CA734949B7D749A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>719AAD3F949E4C1492012B5C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>6AA29BC4CA734949B7D749A9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7D220297FD764E6599FD8C33</string>
-			<key>targetProxy</key>
-			<string>B9AA0492C8CE4EA3B7745EAB</string>
-		</dict>
-		<key>6CD2BE84E7854E5397DAFED3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBA5EF65880A488292F3DCEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>70F3413BF69043C09D1FB29F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1F04CEBFCB9941C1B157C08E</string>
-				<string>72F6ED72E82545068CDE884E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>719AAD3F949E4C1492012B5C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>72F6ED72E82545068CDE884E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>86C9690B2DC24968B61B0057</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7C0A09770B55495D9339B751</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7D220297FD764E6599FD8C33</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1C2D99338A02488295779EB8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C93FE3A51DB44F0693E3CA83</string>
-				<string>2C981336588E4417BD2E208F</string>
-				<string>0F95B570380344B8BD8303F1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-NSLogger</string>
-			<key>productName</key>
-			<string>Pods-NSLogger</string>
-			<key>productReference</key>
-			<string>5CC763CCD7C54029A0C3E066</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7E1EB5C97C1342A9B5FDBF05</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-NSLogger-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86C9690B2DC24968B61B0057</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>880B3A1E967E44BF8B9981EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LoggerClient.h</string>
-			<key>path</key>
-			<string>Client Logger/iOS/LoggerClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>889F9631A7934ADD8410E583</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>880B3A1E967E44BF8B9981EA</string>
-				<string>295C887DF796429E81415AD4</string>
-				<string>13EFF428C9A14134875E6DCA</string>
-				<string>33849874BFC04751BE88E502</string>
-				<string>FF717D98DE284502A7442703</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NSLogger</string>
-			<key>path</key>
-			<string>NSLogger</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92177A04C8A84C92AD509188</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97E79205ACCA4503A573C4DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B763F50436C34B77A6277677</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9954137836964C7CBE56EAAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-NSLogger-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3A398A60B5944D69F1B1E49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2A9CC1BA524442F8C4C8731</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4FCDD05882E4862BDBCDB69</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7E1EB5C97C1342A9B5FDBF05</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-NSLogger-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A9C86B3282A64EFF901E05CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3FBE270381942FD8E335C03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B2A861BF8E844EBFA7B24FE2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2DC35F8FCAD640C5BF175D76</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B5309C75F489483AB086F786</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13EFF428C9A14134875E6DCA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B763F50436C34B77A6277677</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F2A9CC1BA524442F8C4C8731</string>
-				<string>D3FBE270381942FD8E335C03</string>
-				<string>0826990B9D9A4379988D5A64</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9AA0492C8CE4EA3B7745EAB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>60EA8A45CD674710AD4C10F4</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7D220297FD764E6599FD8C33</string>
-			<key>remoteInfo</key>
-			<string>Pods-NSLogger</string>
-		</dict>
-		<key>C93FE3A51DB44F0693E3CA83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5AEF7D4ECF3048BC91E16EAA</string>
-				<string>6CD2BE84E7854E5397DAFED3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CBA5EF65880A488292F3DCEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-NSLogger-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3FBE270381942FD8E335C03</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D460BB9E74DC4164A39AD91C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>566F51844AA945D6B323A1AA</string>
-				<string>7C0A09770B55495D9339B751</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DE8A681C9F95488BABBBD4D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2A9CC1BA524442F8C4C8731</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CFNetwork.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FF717D98DE284502A7442703</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4B2E7FCAF1994467B3D7803C</string>
-				<string>7E1EB5C97C1342A9B5FDBF05</string>
-				<string>CBA5EF65880A488292F3DCEA</string>
-				<string>9954137836964C7CBE56EAAA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>60EA8A45CD674710AD4C10F4</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A7D98240316347089A4F4A133EAC4590 /* MRFFmpegPod */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF9EC28CA7726CD4F397BDB205766B2D /* Build configuration list for PBXAggregateTarget "MRFFmpegPod" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MRFFmpegPod;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8E674D6F19F9297F57E1294A505731BD /* Pods-KxMovieExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC347BCB2B4F4A469BF5B4A7009205BD /* Pods-KxMovieExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88A718ECEADE6ED7573F2AF522CE4B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D98240316347089A4F4A133EAC4590;
+			remoteInfo = MRFFmpegPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000CCEA81496E0C6FD61DAFEAB46380D /* avconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avconfig.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/avconfig.h"; sourceTree = "<group>"; };
+		0032F2A7FEB6182241657BE73F1E22FC /* buffersrc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersrc.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavfilter/buffersrc.h"; sourceTree = "<group>"; };
+		042F25376DC275544DCCAD6C32A946F5 /* avformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avformat.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavformat/avformat.h"; sourceTree = "<group>"; };
+		04591894370D43520412AEB2874A15EF /* vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdpau.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/vdpau.h"; sourceTree = "<group>"; };
+		0901603210AAB1E66808F3B3A408B4C8 /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/frame.h"; sourceTree = "<group>"; };
+		09FA6243DC22D2459FC88D3F80BA4753 /* bswap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bswap.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/bswap.h"; sourceTree = "<group>"; };
+		0AC3AB65B020EF54922C1BF4D74EA18B /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/blowfish.h"; sourceTree = "<group>"; };
+		0B17A84F8CBB8C167F1FED4685AB7003 /* parseutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseutils.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/parseutils.h"; sourceTree = "<group>"; };
+		0CB3901E9B7322212E2F4B673337C69A /* avfft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfft.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/avfft.h"; sourceTree = "<group>"; };
+		0E9E3A8359CCBDC04AA13FE320ACAAA8 /* macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macros.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/macros.h"; sourceTree = "<group>"; };
+		0EC147AEE10EE79E71A407003279F011 /* mediacodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mediacodec.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/mediacodec.h"; sourceTree = "<group>"; };
+		0F5987DAEF54A6F380F397DE3B144713 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavfilter/version.h"; sourceTree = "<group>"; };
+		0FC4EF5DD904A9A090B9EC12417A6D9F /* Pods-KxMovieExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KxMovieExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1146E8330D9E78B98333D90E086FC64E /* hwcontext_drm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_drm.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_drm.h"; sourceTree = "<group>"; };
+		1329CE0F668BC084E760BEFC337FFEBE /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libswresample/version.h"; sourceTree = "<group>"; };
+		14ED9D5B86AB0205369F147BD6A553B8 /* vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vaapi.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/vaapi.h"; sourceTree = "<group>"; };
+		15A9B1228DCAD1F6B8F5F05660EEBC4B /* hwcontext_videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_videotoolbox.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_videotoolbox.h"; sourceTree = "<group>"; };
+		1B8A9FA64D6E07FC231BD7FFE1F3E8B0 /* libavfilter.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavfilter.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libavfilter.a"; sourceTree = "<group>"; };
+		1C2EC019ECB47BBC011AAF0199B9B863 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/version.h"; sourceTree = "<group>"; };
+		1E846D1D4E8735ED713CFDEFACB80C5A /* hwcontext_vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vdpau.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_vdpau.h"; sourceTree = "<group>"; };
+		20D55BF427875E989B4F7E0107C844BA /* avdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdevice.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavdevice/avdevice.h"; sourceTree = "<group>"; };
+		23E9F814148464CE5C39CA6E52417367 /* hwcontext_dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_dxva2.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_dxva2.h"; sourceTree = "<group>"; };
+		251EBF6BE1EEF7301BD923A9A7AAA5E4 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/aes.h"; sourceTree = "<group>"; };
+		257C73DA8FE9404E2E630EEBE2D70DAF /* dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dxva2.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/dxva2.h"; sourceTree = "<group>"; };
+		275584283ADC843E8DF77EFC1F7F45C4 /* dirac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dirac.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/dirac.h"; sourceTree = "<group>"; };
+		286B03AD0876BBB83AE0C27E8AE4E2C5 /* time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/time.h"; sourceTree = "<group>"; };
+		28BB2A7D7D1F18E54EBB017569240AF9 /* tea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tea.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/tea.h"; sourceTree = "<group>"; };
+		324DDC7CD6CDADDDAD171D357CEAC5F5 /* ffversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffversion.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/ffversion.h"; sourceTree = "<group>"; };
+		33FC8E61074F50316A48C0173D41A562 /* intreadwrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intreadwrite.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/intreadwrite.h"; sourceTree = "<group>"; };
+		3B41700EF2B7EB2A9FC8CF6A9961B4D3 /* file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/file.h"; sourceTree = "<group>"; };
+		3C2AA1873F7AF101963F074163417B7F /* mathematics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathematics.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/mathematics.h"; sourceTree = "<group>"; };
+		3C5F2DD5A3A85E2BC777A26E45BD8945 /* Pods-KxMovieExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KxMovieExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CE76F5380428A3051F98962569B7B40 /* stereo3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo3d.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/stereo3d.h"; sourceTree = "<group>"; };
+		3D9E42EE3894879786C83FB268C8021B /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/base64.h"; sourceTree = "<group>"; };
+		3F0EF0F97D6E5436C22D601468C895D2 /* buffersink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersink.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavfilter/buffersink.h"; sourceTree = "<group>"; };
+		402A063329DC42CB88409D61D288DA26 /* avassert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avassert.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/avassert.h"; sourceTree = "<group>"; };
+		41B25A36752C33F9ED625AF47DBE60F2 /* hwcontext_qsv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_qsv.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_qsv.h"; sourceTree = "<group>"; };
+		442A22D69BC99D9EDCCD9F5386718E3B /* sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha512.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/sha512.h"; sourceTree = "<group>"; };
+		4438BE3240442760E6C1189C2D3D8D5E /* avfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfilter.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavfilter/avfilter.h"; sourceTree = "<group>"; };
+		4E53660E5B1116CBE36FA0C0E8461907 /* avstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avstring.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/avstring.h"; sourceTree = "<group>"; };
+		4EAFE2B4444FA1B78520CF5B8D1B7181 /* channel_layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_layout.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/channel_layout.h"; sourceTree = "<group>"; };
+		4F94BA796D3889E1C0BD36946C2E50FA /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/common.h"; sourceTree = "<group>"; };
+		534CE8397DFD4A41E28EEED16B3D4CAA /* eval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eval.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/eval.h"; sourceTree = "<group>"; };
+		5414B444703E796D09B9607CAB9B45AD /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/tree.h"; sourceTree = "<group>"; };
+		54A94353869324DA291BF8AF0EE4CE9E /* Pods-KxMovieExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KxMovieExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9DC480FBF7F29C7DD220C0D4DAD8A3 /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = display.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/display.h"; sourceTree = "<group>"; };
+		5BF842E631FD85A80CBBC8F3630C2F9A /* Pods-KxMovieExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KxMovieExample.release.xcconfig"; sourceTree = "<group>"; };
+		61CABE414F79BE0244A04C11D4377F15 /* libswresample.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswresample.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libswresample.a"; sourceTree = "<group>"; };
+		61CDE85A40D18974B1678078F7F69E97 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/rc4.h"; sourceTree = "<group>"; };
+		683466AE68D9DC5FFD797C19A8B92A8D /* hwcontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext.h"; sourceTree = "<group>"; };
+		6B4F96FB97E5A90037C595E466AEB5D2 /* timestamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timestamp.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/timestamp.h"; sourceTree = "<group>"; };
+		7238E922451654A989F98EBAEAA257E3 /* spherical.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = spherical.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/spherical.h"; sourceTree = "<group>"; };
+		743E20CE09ED6C167054EDC95F998CCC /* fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/fifo.h"; sourceTree = "<group>"; };
+		75AD906A6F65DDBD68A66423EC7373F9 /* replaygain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = replaygain.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/replaygain.h"; sourceTree = "<group>"; };
+		76C1E93731510FD049A98A5E8BB761E8 /* xvmc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xvmc.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/xvmc.h"; sourceTree = "<group>"; };
+		78A62D374F167FBD848B9AA9D2E7AB22 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/sha.h"; sourceTree = "<group>"; };
+		7C2876E408067535F727F3586A20BDCA /* libswscale.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswscale.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libswscale.a"; sourceTree = "<group>"; };
+		7D2AB0DD95722E8F95CEE7A8918D7AC7 /* avfiltergraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfiltergraph.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavfilter/avfiltergraph.h"; sourceTree = "<group>"; };
+		809F854C35E9C57E077BE3F2D2E9546E /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/attributes.h"; sourceTree = "<group>"; };
+		80C661AE8539F4FE3E1DB62E6FB85E65 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hmac.h"; sourceTree = "<group>"; };
+		8201C6EBC5B65BA72D23386286180F5E /* bprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bprint.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/bprint.h"; sourceTree = "<group>"; };
+		829EDB798A85597356FEF8F81D85BE6F /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/log.h"; sourceTree = "<group>"; };
+		842F14D24D0748C99C04D71507524272 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/ripemd.h"; sourceTree = "<group>"; };
+		84DE5EEE91E007021AE2FA7AEFDE3F26 /* xtea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xtea.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/xtea.h"; sourceTree = "<group>"; };
+		89A01B5FE6612ACDEE74A85898958A46 /* libavdevice.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavdevice.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libavdevice.a"; sourceTree = "<group>"; };
+		8B6FD5D3979FB3E5C51EBC7AF3BB6E91 /* dv_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dv_profile.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/dv_profile.h"; sourceTree = "<group>"; };
+		924357D8E5D5EFB0AAABF36036598FB0 /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/error.h"; sourceTree = "<group>"; };
+		935DB7F3AB63325788EBC57A297D070C /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/buffer.h"; sourceTree = "<group>"; };
+		9416DB0FC99C1E2A19246F610C423EFE /* vorbis_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vorbis_parser.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/vorbis_parser.h"; sourceTree = "<group>"; };
+		953F449C305C933D7E119AAEC2BBB495 /* avio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avio.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavformat/avio.h"; sourceTree = "<group>"; };
+		970727DE0F71ECCF874B6C559C812A79 /* rational.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rational.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/rational.h"; sourceTree = "<group>"; };
+		9AB35E4FC2B3CE6B9E24A3C150B35707 /* d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = d3d11va.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/d3d11va.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F99DD6F199266EE8CEF2607010F1236 /* hwcontext_d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_d3d11va.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_d3d11va.h"; sourceTree = "<group>"; };
+		A34BE305714D0C1900DEDE5B3F0EC2D8 /* avdct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdct.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/avdct.h"; sourceTree = "<group>"; };
+		A571149F2B3A2DD601A491076CF572D6 /* swscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swscale.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libswscale/swscale.h"; sourceTree = "<group>"; };
+		A5B02FB051152AC853B7D55C0A470F22 /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/avcodec.h"; sourceTree = "<group>"; };
+		AB98CC80F9D987769C0C3FA315C622DC /* cast5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast5.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/cast5.h"; sourceTree = "<group>"; };
+		ABBB9289FA949A0C63B7C7E874555030 /* pixfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixfmt.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/pixfmt.h"; sourceTree = "<group>"; };
+		AC347BCB2B4F4A469BF5B4A7009205BD /* Pods-KxMovieExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KxMovieExample-dummy.m"; sourceTree = "<group>"; };
+		AD2C6291CD487502875625D29F1BA8DA /* libavformat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavformat.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libavformat.a"; sourceTree = "<group>"; };
+		B01DD68B67F64AB1DCD497094A3162E3 /* random_seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_seed.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/random_seed.h"; sourceTree = "<group>"; };
+		B0C4EF48228AAF23409F79BBDF689732 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/des.h"; sourceTree = "<group>"; };
+		B58EB7961A89B5B3580D12A28EE6245A /* timecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timecode.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/timecode.h"; sourceTree = "<group>"; };
+		B772EF7108E88F4CC919F52A4B9337C5 /* lfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfg.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/lfg.h"; sourceTree = "<group>"; };
+		BE45DF8B3B08760373D6092B39979C37 /* opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opt.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/opt.h"; sourceTree = "<group>"; };
+		BFEBEF5BE10FB8441DCBD8B670044791 /* samplefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplefmt.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/samplefmt.h"; sourceTree = "<group>"; };
+		C1C0D064902152BAB5BAEE72A664E181 /* mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/mem.h"; sourceTree = "<group>"; };
+		C2086B13A6892977B927FD3F2D1F31A8 /* cpu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/cpu.h"; sourceTree = "<group>"; };
+		C2666D71CBCAF657213A3ADE40725685 /* audio_fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_fifo.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/audio_fifo.h"; sourceTree = "<group>"; };
+		C5B8D58E5E6A6A4DFC90687DCA2E573B /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/md5.h"; sourceTree = "<group>"; };
+		C61F127CAF6F597FF775061D64CFFAA5 /* aes_ctr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ctr.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/aes_ctr.h"; sourceTree = "<group>"; };
+		CB4BE2FCEA4756D22666BACFA375C7C7 /* vda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vda.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/vda.h"; sourceTree = "<group>"; };
+		CCFBB26FCAA554C9B08A35546475ECCC /* videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videotoolbox.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/videotoolbox.h"; sourceTree = "<group>"; };
+		CD56D19614BBF9D9FAF85C9653F0D8F1 /* libavcodec.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavcodec.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libavcodec.a"; sourceTree = "<group>"; };
+		CDAA64FCAF95A7F51E5607D629AABECB /* swresample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swresample.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libswresample/swresample.h"; sourceTree = "<group>"; };
+		D277B65B510383E85B9AB37BDEA938B1 /* pixdesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixdesc.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/pixdesc.h"; sourceTree = "<group>"; };
+		D40D454F3C6856CE7614C09AB5F83C2E /* motion_vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = motion_vector.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/motion_vector.h"; sourceTree = "<group>"; };
+		D4CC8A4072FE4005F57CB2F81E8E97CF /* murmur3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = murmur3.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/murmur3.h"; sourceTree = "<group>"; };
+		D5C80CE77400200655A2C575024C1D53 /* threadmessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threadmessage.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/threadmessage.h"; sourceTree = "<group>"; };
+		D9057AC4898AFF06881127AC961340C8 /* MRFFmpegPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRFFmpegPod.xcconfig; sourceTree = "<group>"; };
+		D95D76727B2F20FB3FD798B4F2E41FAE /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hash.h"; sourceTree = "<group>"; };
+		D9F61D945F434B37642EC65BDFA244F7 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavformat/version.h"; sourceTree = "<group>"; };
+		DB2602453F63BB4F88A6CCA5660EB153 /* jni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jni.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/jni.h"; sourceTree = "<group>"; };
+		DB3AC049E7CC21198ADEAABDBB1ED324 /* adler32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adler32.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/adler32.h"; sourceTree = "<group>"; };
+		DC50442C5F079112453C91BCF652DFF2 /* hwcontext_vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vaapi.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_vaapi.h"; sourceTree = "<group>"; };
+		DCA53859913741A3BD871C9154E008D5 /* mastering_display_metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastering_display_metadata.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/mastering_display_metadata.h"; sourceTree = "<group>"; };
+		DEE5E105ACEC0D6D2D21AC41DFF7953C /* twofish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = twofish.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/twofish.h"; sourceTree = "<group>"; };
+		DFD38500D5DA764BDA3385C9CC5743F8 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libswscale/version.h"; sourceTree = "<group>"; };
+		E8A38FF72B87C0A5B8AB10425A02F0F8 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/version.h"; sourceTree = "<group>"; };
+		EA487F76BEE36E6137FE6BC626C83293 /* qsv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qsv.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavcodec/qsv.h"; sourceTree = "<group>"; };
+		EB1BE57B51B83FB292BF5D38540A3D02 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/camellia.h"; sourceTree = "<group>"; };
+		EBCEECDC9A6EC019E9EE6918187CC813 /* libPods-KxMovieExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KxMovieExample.a"; path = "libPods-KxMovieExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1DE5269FB8EBC8BE0979EA43EC593E /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/dict.h"; sourceTree = "<group>"; };
+		EE5A52FA56C71AFA389FA7843E462DD8 /* intfloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfloat.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/intfloat.h"; sourceTree = "<group>"; };
+		EF7192F054A4D14114487E844E505272 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavdevice/version.h"; sourceTree = "<group>"; };
+		EFC697FE8FB50E66E2D1C4ABFCE4D34E /* libavutil.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavutil.a; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/lib/libavutil.a"; sourceTree = "<group>"; };
+		F2B8DCE4B225609082AD5055BC678C43 /* pixelutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixelutils.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/pixelutils.h"; sourceTree = "<group>"; };
+		F310F19149B162A171F9C4DE9163B259 /* hwcontext_cuda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_cuda.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/hwcontext_cuda.h"; sourceTree = "<group>"; };
+		F45A5CF429F237EBDC869BCAD19D621C /* avutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avutil.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/avutil.h"; sourceTree = "<group>"; };
+		F8A86FE1AA88A8835B1B2C868212E719 /* lzo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lzo.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/lzo.h"; sourceTree = "<group>"; };
+		FC214DF9F1C18A9CDA4200AE99EE3DD6 /* imgutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgutils.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/imgutils.h"; sourceTree = "<group>"; };
+		FD6E8A7C645ED215ACBF2BA79C69ACBC /* downmix_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = downmix_info.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/downmix_info.h"; sourceTree = "<group>"; };
+		FE3C63570829A85739400FFA85154EBC /* crc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc.h; path = "MRFFmpegPod/iOS/FFmpeg-3.4.7/include/libavutil/crc.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9347919A1C36F159C5847E4E3818303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A2A1B9AF0DE2D41BBCFC772271E61B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C2876E408067535F727F3586A20BDCA /* libswscale.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		191F390785DE0A9FBE8258E1C64AB10B /* libavfilter */ = {
+			isa = PBXGroup;
+			children = (
+				4438BE3240442760E6C1189C2D3D8D5E /* avfilter.h */,
+				7D2AB0DD95722E8F95CEE7A8918D7AC7 /* avfiltergraph.h */,
+				3F0EF0F97D6E5436C22D601468C895D2 /* buffersink.h */,
+				0032F2A7FEB6182241657BE73F1E22FC /* buffersrc.h */,
+				0F5987DAEF54A6F380F397DE3B144713 /* version.h */,
+				6D59D02B424E149D8729657323A014D5 /* Frameworks */,
+			);
+			name = libavfilter;
+			sourceTree = "<group>";
+		};
+		1B7D343C9466EC7BB0CA8FECFA9DCDAE /* libavcodec */ = {
+			isa = PBXGroup;
+			children = (
+				A5B02FB051152AC853B7D55C0A470F22 /* avcodec.h */,
+				A34BE305714D0C1900DEDE5B3F0EC2D8 /* avdct.h */,
+				0CB3901E9B7322212E2F4B673337C69A /* avfft.h */,
+				9AB35E4FC2B3CE6B9E24A3C150B35707 /* d3d11va.h */,
+				275584283ADC843E8DF77EFC1F7F45C4 /* dirac.h */,
+				8B6FD5D3979FB3E5C51EBC7AF3BB6E91 /* dv_profile.h */,
+				257C73DA8FE9404E2E630EEBE2D70DAF /* dxva2.h */,
+				DB2602453F63BB4F88A6CCA5660EB153 /* jni.h */,
+				0EC147AEE10EE79E71A407003279F011 /* mediacodec.h */,
+				EA487F76BEE36E6137FE6BC626C83293 /* qsv.h */,
+				14ED9D5B86AB0205369F147BD6A553B8 /* vaapi.h */,
+				CB4BE2FCEA4756D22666BACFA375C7C7 /* vda.h */,
+				04591894370D43520412AEB2874A15EF /* vdpau.h */,
+				1C2EC019ECB47BBC011AAF0199B9B863 /* version.h */,
+				CCFBB26FCAA554C9B08A35546475ECCC /* videotoolbox.h */,
+				9416DB0FC99C1E2A19246F610C423EFE /* vorbis_parser.h */,
+				76C1E93731510FD049A98A5E8BB761E8 /* xvmc.h */,
+				4CEA89EA184A9B3B1FF5051DD28DA59A /* Frameworks */,
+			);
+			name = libavcodec;
+			sourceTree = "<group>";
+		};
+		2078876B0CBE733FC629173543B76181 /* libavutil */ = {
+			isa = PBXGroup;
+			children = (
+				DB3AC049E7CC21198ADEAABDBB1ED324 /* adler32.h */,
+				251EBF6BE1EEF7301BD923A9A7AAA5E4 /* aes.h */,
+				C61F127CAF6F597FF775061D64CFFAA5 /* aes_ctr.h */,
+				809F854C35E9C57E077BE3F2D2E9546E /* attributes.h */,
+				C2666D71CBCAF657213A3ADE40725685 /* audio_fifo.h */,
+				402A063329DC42CB88409D61D288DA26 /* avassert.h */,
+				000CCEA81496E0C6FD61DAFEAB46380D /* avconfig.h */,
+				4E53660E5B1116CBE36FA0C0E8461907 /* avstring.h */,
+				F45A5CF429F237EBDC869BCAD19D621C /* avutil.h */,
+				3D9E42EE3894879786C83FB268C8021B /* base64.h */,
+				0AC3AB65B020EF54922C1BF4D74EA18B /* blowfish.h */,
+				8201C6EBC5B65BA72D23386286180F5E /* bprint.h */,
+				09FA6243DC22D2459FC88D3F80BA4753 /* bswap.h */,
+				935DB7F3AB63325788EBC57A297D070C /* buffer.h */,
+				EB1BE57B51B83FB292BF5D38540A3D02 /* camellia.h */,
+				AB98CC80F9D987769C0C3FA315C622DC /* cast5.h */,
+				4EAFE2B4444FA1B78520CF5B8D1B7181 /* channel_layout.h */,
+				4F94BA796D3889E1C0BD36946C2E50FA /* common.h */,
+				C2086B13A6892977B927FD3F2D1F31A8 /* cpu.h */,
+				FE3C63570829A85739400FFA85154EBC /* crc.h */,
+				B0C4EF48228AAF23409F79BBDF689732 /* des.h */,
+				EE1DE5269FB8EBC8BE0979EA43EC593E /* dict.h */,
+				5B9DC480FBF7F29C7DD220C0D4DAD8A3 /* display.h */,
+				FD6E8A7C645ED215ACBF2BA79C69ACBC /* downmix_info.h */,
+				924357D8E5D5EFB0AAABF36036598FB0 /* error.h */,
+				534CE8397DFD4A41E28EEED16B3D4CAA /* eval.h */,
+				324DDC7CD6CDADDDAD171D357CEAC5F5 /* ffversion.h */,
+				743E20CE09ED6C167054EDC95F998CCC /* fifo.h */,
+				3B41700EF2B7EB2A9FC8CF6A9961B4D3 /* file.h */,
+				0901603210AAB1E66808F3B3A408B4C8 /* frame.h */,
+				D95D76727B2F20FB3FD798B4F2E41FAE /* hash.h */,
+				80C661AE8539F4FE3E1DB62E6FB85E65 /* hmac.h */,
+				683466AE68D9DC5FFD797C19A8B92A8D /* hwcontext.h */,
+				F310F19149B162A171F9C4DE9163B259 /* hwcontext_cuda.h */,
+				9F99DD6F199266EE8CEF2607010F1236 /* hwcontext_d3d11va.h */,
+				1146E8330D9E78B98333D90E086FC64E /* hwcontext_drm.h */,
+				23E9F814148464CE5C39CA6E52417367 /* hwcontext_dxva2.h */,
+				41B25A36752C33F9ED625AF47DBE60F2 /* hwcontext_qsv.h */,
+				DC50442C5F079112453C91BCF652DFF2 /* hwcontext_vaapi.h */,
+				1E846D1D4E8735ED713CFDEFACB80C5A /* hwcontext_vdpau.h */,
+				15A9B1228DCAD1F6B8F5F05660EEBC4B /* hwcontext_videotoolbox.h */,
+				FC214DF9F1C18A9CDA4200AE99EE3DD6 /* imgutils.h */,
+				EE5A52FA56C71AFA389FA7843E462DD8 /* intfloat.h */,
+				33FC8E61074F50316A48C0173D41A562 /* intreadwrite.h */,
+				B772EF7108E88F4CC919F52A4B9337C5 /* lfg.h */,
+				829EDB798A85597356FEF8F81D85BE6F /* log.h */,
+				F8A86FE1AA88A8835B1B2C868212E719 /* lzo.h */,
+				0E9E3A8359CCBDC04AA13FE320ACAAA8 /* macros.h */,
+				DCA53859913741A3BD871C9154E008D5 /* mastering_display_metadata.h */,
+				3C2AA1873F7AF101963F074163417B7F /* mathematics.h */,
+				C5B8D58E5E6A6A4DFC90687DCA2E573B /* md5.h */,
+				C1C0D064902152BAB5BAEE72A664E181 /* mem.h */,
+				D40D454F3C6856CE7614C09AB5F83C2E /* motion_vector.h */,
+				D4CC8A4072FE4005F57CB2F81E8E97CF /* murmur3.h */,
+				BE45DF8B3B08760373D6092B39979C37 /* opt.h */,
+				0B17A84F8CBB8C167F1FED4685AB7003 /* parseutils.h */,
+				D277B65B510383E85B9AB37BDEA938B1 /* pixdesc.h */,
+				F2B8DCE4B225609082AD5055BC678C43 /* pixelutils.h */,
+				ABBB9289FA949A0C63B7C7E874555030 /* pixfmt.h */,
+				B01DD68B67F64AB1DCD497094A3162E3 /* random_seed.h */,
+				970727DE0F71ECCF874B6C559C812A79 /* rational.h */,
+				61CDE85A40D18974B1678078F7F69E97 /* rc4.h */,
+				75AD906A6F65DDBD68A66423EC7373F9 /* replaygain.h */,
+				842F14D24D0748C99C04D71507524272 /* ripemd.h */,
+				BFEBEF5BE10FB8441DCBD8B670044791 /* samplefmt.h */,
+				78A62D374F167FBD848B9AA9D2E7AB22 /* sha.h */,
+				442A22D69BC99D9EDCCD9F5386718E3B /* sha512.h */,
+				7238E922451654A989F98EBAEAA257E3 /* spherical.h */,
+				3CE76F5380428A3051F98962569B7B40 /* stereo3d.h */,
+				28BB2A7D7D1F18E54EBB017569240AF9 /* tea.h */,
+				D5C80CE77400200655A2C575024C1D53 /* threadmessage.h */,
+				286B03AD0876BBB83AE0C27E8AE4E2C5 /* time.h */,
+				B58EB7961A89B5B3580D12A28EE6245A /* timecode.h */,
+				6B4F96FB97E5A90037C595E466AEB5D2 /* timestamp.h */,
+				5414B444703E796D09B9607CAB9B45AD /* tree.h */,
+				DEE5E105ACEC0D6D2D21AC41DFF7953C /* twofish.h */,
+				E8A38FF72B87C0A5B8AB10425A02F0F8 /* version.h */,
+				84DE5EEE91E007021AE2FA7AEFDE3F26 /* xtea.h */,
+				3FD492A9989B362FC9C93B9650E63A43 /* Frameworks */,
+			);
+			name = libavutil;
+			sourceTree = "<group>";
+		};
+		26851B00197F240B0560E69C6A3C491F /* Pods-KxMovieExample */ = {
+			isa = PBXGroup;
+			children = (
+				0FC4EF5DD904A9A090B9EC12417A6D9F /* Pods-KxMovieExample-acknowledgements.markdown */,
+				3C5F2DD5A3A85E2BC777A26E45BD8945 /* Pods-KxMovieExample-acknowledgements.plist */,
+				AC347BCB2B4F4A469BF5B4A7009205BD /* Pods-KxMovieExample-dummy.m */,
+				54A94353869324DA291BF8AF0EE4CE9E /* Pods-KxMovieExample.debug.xcconfig */,
+				5BF842E631FD85A80CBBC8F3630C2F9A /* Pods-KxMovieExample.release.xcconfig */,
+			);
+			name = "Pods-KxMovieExample";
+			path = "Target Support Files/Pods-KxMovieExample";
+			sourceTree = "<group>";
+		};
+		32738BD4D66298E8E8057C89D64020DA /* MRFFmpegPod */ = {
+			isa = PBXGroup;
+			children = (
+				1B7D343C9466EC7BB0CA8FECFA9DCDAE /* libavcodec */,
+				E2266D401737E07CC514905151FF191A /* libavdevice */,
+				191F390785DE0A9FBE8258E1C64AB10B /* libavfilter */,
+				6FF9FDB7AD328F39C2E3B212201BA09D /* libavformat */,
+				2078876B0CBE733FC629173543B76181 /* libavutil */,
+				BA2132FBFFF76E47FF8DA2A28B212117 /* libswresample */,
+				88C1A0000D4243BA060CFF9AEF1A43A3 /* libswscale */,
+				4BDFBB6698FB986A5E8E6E132338C2D8 /* Support Files */,
+			);
+			name = MRFFmpegPod;
+			path = MRFFmpegPod;
+			sourceTree = "<group>";
+		};
+		3FD492A9989B362FC9C93B9650E63A43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC697FE8FB50E66E2D1C4ABFCE4D34E /* libavutil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BDFBB6698FB986A5E8E6E132338C2D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9057AC4898AFF06881127AC961340C8 /* MRFFmpegPod.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRFFmpegPod";
+			sourceTree = "<group>";
+		};
+		4CEA89EA184A9B3B1FF5051DD28DA59A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD56D19614BBF9D9FAF85C9653F0D8F1 /* libavcodec.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D59D02B424E149D8729657323A014D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8A9FA64D6E07FC231BD7FFE1F3E8B0 /* libavfilter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF9FDB7AD328F39C2E3B212201BA09D /* libavformat */ = {
+			isa = PBXGroup;
+			children = (
+				042F25376DC275544DCCAD6C32A946F5 /* avformat.h */,
+				953F449C305C933D7E119AAEC2BBB495 /* avio.h */,
+				D9F61D945F434B37642EC65BDFA244F7 /* version.h */,
+				DFE14A0EC5AD89218C786954139AB48E /* Frameworks */,
+			);
+			name = libavformat;
+			sourceTree = "<group>";
+		};
+		7F94A8F9B61F597AED6DEF7D7E3290E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCEECDC9A6EC019E9EE6918187CC813 /* libPods-KxMovieExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C1A0000D4243BA060CFF9AEF1A43A3 /* libswscale */ = {
+			isa = PBXGroup;
+			children = (
+				A571149F2B3A2DD601A491076CF572D6 /* swscale.h */,
+				DFD38500D5DA764BDA3385C9CC5743F8 /* version.h */,
+				03A2A1B9AF0DE2D41BBCFC772271E61B /* Frameworks */,
+			);
+			name = libswscale;
+			sourceTree = "<group>";
+		};
+		B054411417E1689C6CADD97ABAF751E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A01B5FE6612ACDEE74A85898958A46 /* libavdevice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7CF948BCB1A3473855EBE2F6E1DDE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61CABE414F79BE0244A04C11D4377F15 /* libswresample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA2132FBFFF76E47FF8DA2A28B212117 /* libswresample */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA64FCAF95A7F51E5607D629AABECB /* swresample.h */,
+				1329CE0F668BC084E760BEFC337FFEBE /* version.h */,
+				B7CF948BCB1A3473855EBE2F6E1DDE76 /* Frameworks */,
+			);
+			name = libswresample;
+			sourceTree = "<group>";
+		};
+		C7A5AADF917CF766CFD53D0A522AF0BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26851B00197F240B0560E69C6A3C491F /* Pods-KxMovieExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F432B090BFFB403AAABDECCDB33C5F09 /* Pods */,
+				7F94A8F9B61F597AED6DEF7D7E3290E9 /* Products */,
+				C7A5AADF917CF766CFD53D0A522AF0BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE14A0EC5AD89218C786954139AB48E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C6291CD487502875625D29F1BA8DA /* libavformat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2266D401737E07CC514905151FF191A /* libavdevice */ = {
+			isa = PBXGroup;
+			children = (
+				20D55BF427875E989B4F7E0107C844BA /* avdevice.h */,
+				EF7192F054A4D14114487E844E505272 /* version.h */,
+				B054411417E1689C6CADD97ABAF751E8 /* Frameworks */,
+			);
+			name = libavdevice;
+			sourceTree = "<group>";
+		};
+		F432B090BFFB403AAABDECCDB33C5F09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32738BD4D66298E8E8057C89D64020DA /* MRFFmpegPod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F9699A12BA665A8DEF1B48F0850756B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DC3E9B8AC78F60417A75C677D625A807 /* Pods-KxMovieExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA81BB747E1BE88E796EC169F492472 /* Build configuration list for PBXNativeTarget "Pods-KxMovieExample" */;
+			buildPhases = (
+				F9699A12BA665A8DEF1B48F0850756B5 /* Headers */,
+				16CD1E64142831CA4C631D2DB5B0F335 /* Sources */,
+				C9347919A1C36F159C5847E4E3818303 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75FBA5B9453E38DC9CB32289C49B784 /* PBXTargetDependency */,
+			);
+			name = "Pods-KxMovieExample";
+			productName = "Pods-KxMovieExample";
+			productReference = EBCEECDC9A6EC019E9EE6918187CC813 /* libPods-KxMovieExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F94A8F9B61F597AED6DEF7D7E3290E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D98240316347089A4F4A133EAC4590 /* MRFFmpegPod */,
+				DC3E9B8AC78F60417A75C677D625A807 /* Pods-KxMovieExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CD1E64142831CA4C631D2DB5B0F335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E674D6F19F9297F57E1294A505731BD /* Pods-KxMovieExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75FBA5B9453E38DC9CB32289C49B784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRFFmpegPod;
+			target = A7D98240316347089A4F4A133EAC4590 /* MRFFmpegPod */;
+			targetProxy = 88A718ECEADE6ED7573F2AF522CE4B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		51967FC560D0BF54ED02DC195316E83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9057AC4898AFF06881127AC961340C8 /* MRFFmpegPod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAAADD2063FAF18532BDF8030FCDED4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A94353869324DA291BF8AF0EE4CE9E /* Pods-KxMovieExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD5150FF05494215E402B04F9AEE18A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9057AC4898AFF06881127AC961340C8 /* MRFFmpegPod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8BA38A211BB9C89E2D17CE6ADC814B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF842E631FD85A80CBBC8F3630C2F9A /* Pods-KxMovieExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9EC28CA7726CD4F397BDB205766B2D /* Build configuration list for PBXAggregateTarget "MRFFmpegPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51967FC560D0BF54ED02DC195316E83A /* Debug */,
+				AD5150FF05494215E402B04F9AEE18A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA81BB747E1BE88E796EC169F492472 /* Build configuration list for PBXNativeTarget "Pods-KxMovieExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAADD2063FAF18532BDF8030FCDED4E /* Debug */,
+				E8BA38A211BB9C89E2D17CE6ADC814B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
